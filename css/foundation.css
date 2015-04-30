@@ -3168,7 +3168,8 @@ ul.pagination {
     clear: both; }
   .accordion .accordion-navigation, .accordion dd {
     display: inline-block;
-    margin-bottom: 0 !important;
+    margin-bottom: none !important;
+    margin-top: none !important;
 	width: 100%; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
       background: #e8e8e8; }

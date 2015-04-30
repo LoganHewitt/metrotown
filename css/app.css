@@ -3,6 +3,11 @@
   padding: 2%;
   background: #F6921E;
   color: #333333;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
 }
 
 #footer{
@@ -23,6 +28,11 @@
   background-color: #F6921E;
   font-size: 32pt;
   text-align: center;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
 }
 
 .dealsimg{
@@ -35,7 +45,7 @@
 .newstxt{
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #333333;
 }
 
 .dealtxt{
@@ -48,6 +58,10 @@
   padding: 1rem;
   background: #e8c21f;
   color: #333333;
+  border-radius: 0px 25px 0px 25px;
+-moz-border-radius: 0px 25px 0px 25px;
+-webkit-border-radius: 0px 25px 0px 25px;
+border: 3px dotted #000000;
 }
 
 .news{
@@ -104,7 +118,7 @@ margin-left:5%;
 }
 
 .transitBay{
-  margin-right: 5%;
+  background-color: #ffffff !important;
 }
 
 @media only screen and (max-width: 40em) {
@@ -163,12 +177,9 @@ a:visited{
   background-color:#ff681f;
 }
 
-.imgmargin:hover{
-  background-color: #ba9b19;
-}
-
 .transittxt{
   text-align: center;
+  margin-bottom: none;
 }
 
 .shopsimg{
@@ -190,6 +201,10 @@ a:visited{
   background-color: #e8c21f;
   margin-left:2%;
   margin-right:2%;
+border-radius: 25px 25px 0px 0px;
+-moz-border-radius: 25px 25px 0px 0px;
+-webkit-border-radius: 25px 25px 0px 0px;
+border: 3px dotted #000000;
 }
 
 .blogimg{
@@ -197,3 +212,71 @@ display: block;
     margin-left: auto;
     margin-right: auto
 }
+.navlist{
+	-o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.blogdiv{
+    border-style: solid;
+    border-width: 0px;
+    border-color: #c5e8f3;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #e8c21f;
+    color: #333333;
+	-o-transition:.3s;
+  	-ms-transition:.3s;
+  	-moz-transition:.3s;
+  	-webkit-transition:.3s;
+  	transition:.3s;
+    border-radius: 25px 0px 25px 0px;
+-moz-border-radius: 25px 0px 25px 0px;
+-webkit-border-radius: 25px 0px 25px 0px;
+border: 3px dotted #000000;
+}
+
+.transitAccordion{
+  background-color: #6f77ff !important;
+  padding: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+.transitAccordion:hover{
+  background-color: #434799 !important;
+}
+
+.shopAccordion{
+  background-color: #6b24b2 !important;
+  color: #aaaaaa !important;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 3px dashed #6f77ff;
+
+}
+.shopAccordion:hover{
+  background-color: #9766c9 !important;
+  color: #000000 !important;
+}
+
+.shop{
+  background-color:#e8c21f !important;
+}
+.shops{
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;}
